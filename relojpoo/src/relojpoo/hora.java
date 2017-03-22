@@ -4,10 +4,9 @@ public class hora extends Utiempo{
   
   
     public void hora(){
-        hora h=new hora();
-        h.lim=24;
-        h.unidad=0;
-        h.modificar();
+        this.lim=24;
+        this.unidad=0;
+        this.modificar();
         
     }
     
